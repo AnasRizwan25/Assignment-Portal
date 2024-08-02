@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(253, 222, 163);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-top{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    font-family: Concert One,Arial,sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: white;
+    height: 210px;
+    background-color: rgb(255, 155, 55);
+    position: sticky;
+    top: 0;
+    margin-top: 4px;
+}
+ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    padding: 4px;
+}
+.nav-setting-top1{
+    margin-top: 3px;
+    margin-bottom: 25px;
+}
+.nav-setting-top2{
+    margin-bottom: 10px;
+}
+.nav-setting-top3{
+    font-family: poppins;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(231, 13, 5, 0.733);
+    border-radius:40px ;
+    padding: 3.5px 15px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 20px;
+
+}
+.main-setting-middle1,.main-setting-middle2{
+    margin-top: 20px;
+    width: 450px;
+    height: 260px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: poppins;
+    align-items: center;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.15);;
+}
+
+.bottom-setting{
+    position: fixed;
+    bottom: 10px;
+    right: 12px;
+    background-color: white;
+    padding: 18px 24px;
+    border-radius: 60%;
+    background-color: rgb(247, 94, 94);
+}
+.bottom-setting:hover{
+    background-color: rgb(243, 61, 61);
+}
+a:hover{
+    color: white;
+}
+a{
+    text-decoration: none;
+   font-size: 18px;
+    color: black;
+}
+p{
+    font-weight: 700;
+    margin: 13px;
+    font-size: 25px;
+    text-shadow: 2px 3.2px 0px rgba(0, 0, 0, 0.11);
+    letter-spacing: 1px;
+}
+address{
+    
+    margin-top: 40px;
+}
+address p{
+    font-size: 15px;
+    font-family: poppins;
+    font-weight: 700;
+} 
+@media (min-width:300px) and (max-width: 540px) {
+    .main-setting-middle1,.main-setting-middle2{
+        margin-top: 20px;
+        width: 250px;
+        height: 260px;
+        background-color: white;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        font-family: poppins;
+        align-items: center;
+        box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.15);;
+    }   
+    section{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bottom-setting{
+        right: 6px;
+    }
+    .nav-setting-top3{
+        padding: 3.5px 12px;
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+}
